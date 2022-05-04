@@ -1,0 +1,309 @@
+/* Titles & Text */
+body {
+  font-family: "manrope";
+  text-align: left;
+  margin: 0;
+  }
+
+h1 {
+  font-family: "manrope";
+  font-size: 6rem;
+  color: #FCCF00;
+  font-weight: 900;
+}
+
+h2 {
+  font-family: "manrope";
+  font-size: 5rem;
+  color: #FCCF00;
+  font-weight: 900;
+}
+
+.black-h2-contact {
+  font-family: "manrope";
+  font-size: 4rem;
+  color: black;
+  font-weight: 900;
+  padding-bottom: 2.5%;
+}
+
+.subtitol {
+  font-family: "manrope";
+  font-size: 2.5rem;
+  color: black;
+  font-weight: 600;
+  padding-top: 2rem;
+}
+
+p {
+  font-family: "manrope";
+  font-size: 1.5rem;
+  color: black;
+  font-weight: 500;
+}
+.row {
+  --bs-gutter-x: 0;
+}
+/* Navbar */
+@media (max-width: 990px) {
+  .menu-desktop {
+    display: none;
+  }
+
+}
+@media (min-width: 990px) {
+  .logo-small {
+    display: none;
+  }
+  .menu-mobile {
+  display: none;
+  }
+}
+.menu-mobile {
+  background-color: white;
+  color: black;
+  text-align: center;
+  padding: 15px 0;
+  border-top-width: 2px;
+  border-color: grey;
+}
+
+.logo-peque {
+  width: 70px;
+}
+
+.nav-link-mb {
+  color: black;
+  margin: 0;
+  padding: 0;
+}
+.nav-link-mb:hover {
+  color: #FCCF00;
+  margin: 0;
+  padding: 0;
+}
+.logo-small {
+  padding: 5% 5% 0 5%;
+  width: 100%;
+  top: 0;
+  background-color: #EAEAEA;
+  border-width: 0;
+}
+.menu-desktop {
+  background-color: white;
+  padding: 10px 7%;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  z-index: 1;
+
+}
+.logo-menu-desktop {
+  display: inline;
+}
+
+.pages {
+  text-align: right;
+  padding: 0 0 0px 3%;
+}
+.item-menu-desktop {
+  text-align: right;
+  display: inline;
+  }
+
+}
+.navbar {
+  padding: 10px 7%;
+  text-align: center;
+  vertical-align: middle;
+}
+.navbar-brand{
+  font-family: "manrope";
+  font-size: 2rem;
+  color: black;
+  font-weight: 900;
+  padding: 0;
+}
+
+.navbar-brand:hover{
+  font-family: "manrope";
+  font-size: 2rem;
+  color: grey;
+  font-weight: 900;
+  padding: 0;
+}
+.logo-arrow {
+  width: 1.88rem;
+  padding-left: 0.3125rem;
+  vertical-align: middle;
+}
+
+.navbar-text {
+  padding: 0 2.5%;
+  font-family: "manrope";
+  font-size: 1rem;
+  color: black;
+  font-weight: 400;
+}
+
+.nav-item{
+  font-family: "manrope";
+  font-size: 1rem;
+  color: black;
+  font-weight: 500;
+  padding: 0 20px;
+}
+
+.nav-item:hover {
+  font-family: "manrope";
+  font-size: 1rem;
+  color: #FCCF00;
+  font-weight: 500;
+  padding: 0 20px;
+}
+
+/* Hero Section */
+.hero {
+  padding: 9.375rem 7% 12.5rem 7%;
+  background-color: #EAEAEA;
+  margin: 0;
+  max-width: 100%;
+}
+
+.hero-row {
+  margin: 0;
+}
+.hero-img {
+  display: none;
+  text-align: right;
+}
+.foto {
+  width: 400px;
+}
+.btn {
+  border-width: 3px;
+  border-radius: 0;
+  border-color: black;
+  padding: 10px 30px;
+  color: black;
+  font-size: 1rem;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.btn:hover {
+  border-width: 3px;
+  border-radius: 0;
+  border-color: black;
+  background-color: black;
+  padding: 10px 30px;
+  color: white;
+  font-size: 1rem;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+
+
+
+
+.arrow-down {
+  height: 45px;
+  margin-top: 150px;
+}
+
+/* Contact Section */
+.contact-section {
+  padding: 150px 0 200px 0;
+  text-align: center;
+  background-color: #FCCF00;
+  margin: 0;
+  max-width: 100%;
+}
+
+.main-button {
+  margin-top: 2.5%;
+  width: 70px;
+  height: 70px;
+  border-radius: 100%;
+  border-width: 3px;
+  border-color: black;
+  background-color: #FCCF00;
+  color: black;
+}
+
+.main-button:hover {
+  margin-top: 2.5%;
+  width: 70px;
+  height: 70px;
+  border-radius: 100%;
+  border-width: 3px;
+  border-color: black;
+  background-color: black;
+  color: white;
+}
+
+.fa-arrow-right{
+  padding: 0;
+}
+.btn-text-contact {
+  font-family: "manrope";
+  font-size: 1rem;
+  color: black;
+  font-weight: 900;
+  padding-top: 0.3%
+}
+
+/* Footer */
+.footer {
+  text-align: center;
+  background-color: black;
+  color: white;
+  padding: 2% 7%;
+}
+
+a {
+  font-family: "manrope";
+  font-size: 1rem;
+  color: white;
+  font-weight: 500;
+  text-decoration: none;
+  padding: 5% 20px;
+}
+
+a:hover {
+  font-family: "manrope";
+  font-size: 1rem;
+  color: #FCCF00;
+  font-weight: 500;
+  text-decoration: none;
+  padding: 5% 20px;
+}
+
+.footer-element {
+  padding: 0;
+}
+.footer-text {
+  font-family: "manrope";
+  font-size: 1rem;
+  color: #9F9A86;
+  font-weight: 500;
+  }
+
+.footer-title {
+  font-family: "manrope";
+  font-size: 1.7rem;
+  color: white;
+  font-weight: 800;
+  margin: 0;
+  padding: 2% 0 0 0;
+}
+
+.footer-copy {
+    font-family: "manrope";
+  font-size: 0.7rem;
+  color: white;
+  font-weight: 300;
+  margin: 0;
+  padding: 2% 0 0 0;
+}
